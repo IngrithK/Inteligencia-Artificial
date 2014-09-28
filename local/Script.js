@@ -76,7 +76,7 @@ window.onload = function()
 				//accionPersona(idUser, 2);
 				if(confirm("¿Está segur@ de realizar está acción?"))
 				{	var	ind = buscaIndice(idUser);	
-					listadoPersonas.splice(listadoPersonas[ind],1);
+					listadoPersonas.splice(ind,1);
 					localStorage.setItem("listado", JSON.stringify(listadoPersonas));
 					window.location.reload();
 			
