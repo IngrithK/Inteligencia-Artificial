@@ -78,7 +78,7 @@ window.onload = function()
 				{	var	ind = buscaIndice(idUser);	
 					listadoPersonas.splice(ind,1);
 					localStorage.setItem("listado", JSON.stringify(listadoPersonas));
-					window.location.reload();
+					//window.location.reload();
 			
 			
 			}else {
