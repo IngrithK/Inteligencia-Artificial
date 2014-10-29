@@ -2,8 +2,7 @@ var debug;
 window.onload = function()
 {
 	mundosWumpus = [];
-	//Luis Carlos Carranza Colorado: luiscarloscarranzacolorado@hotmail.com - gmail.com
-	//JSON.stringify(mundoGenera);
+	//Ingrith Katherinne Quintero
 	//Ajax...
 	function loadJSON(path, success, error)
 	{
